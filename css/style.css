@@ -13,13 +13,37 @@ body {
 /* /GENERAL RULES */
 
 /****** UTILITIES ******/
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
 
+.flex {
+    display: flex;
+}
 
+.wrap {
+    flex-wrap: wrap;
+}
 
 /****** UTILITIES ******/
 
 /* STYLE */
 
+/** Main style **/
+main {
+    background-color: #000;
+}
 
+.users-card {
+    width: calc(100% / 7 - 10px);
+    margin: 5px 5px;
+}
+
+.users-card img {
+    width: 100%;
+}
+
+/** /Main style **/
 
 /* /STYLE */
