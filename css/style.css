@@ -38,10 +38,22 @@ main {
 .users-card {
     width: calc(100% / 7 - 10px);
     margin: 5px 5px;
+    position: relative;
 }
 
 .users-card img {
     width: 100%;
+    display: block;
+}
+
+.user-info {
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: #66737d;
+    opacity: 0.8;
+    padding: 5px;
 }
 
 /** /Main style **/
