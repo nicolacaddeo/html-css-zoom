@@ -23,12 +23,25 @@ body {
     display: flex;
 }
 
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
 .wrap {
     flex-wrap: wrap;
 }
 
 .end {
     justify-content: flex-end;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
 }
 
 /****** /UTILITIES ******/
@@ -82,10 +95,31 @@ main {
 
 /* Footer style */
 footer {
-    height: 10vh;
     background-color: #222;
+    color: #fff;
+    height: 10vh;
 }
 
-/* /Footer style */
+footer button {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 12px;
+}
 
-/* /STYLE */
+.big-icon {
+    font-size: 2rem;
+}
+
+footer i {
+    margin-bottom: 10px;
+}
+
+.end-meeting {
+    background-color: #4a4a4a;
+    height: 100%;
+    font-size: 0.9rem;
+    color: red;
+    font-weight: bold;
+    padding: 20px;
+}
